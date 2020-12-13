@@ -1,0 +1,17 @@
+.container-fluid.background-index{
+    padding-top: 5rem;
+    background-image: url(../images/background-index1.png);
+    background-size: cover;
+}
+
+.container-fluid.background-contact {
+    padding-top: 5rem;
+    background-image: url(../images/background-portfolio.jpg);
+    background-size: cover;
+    }
+
+.container-fluid.background-portfolio{
+    padding-top: 5rem;
+    background-color: rgb(235, 253, 255);
+    background-size: cover;
+}
