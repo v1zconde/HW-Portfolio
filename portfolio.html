@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-  <title>Title</title>
+  <title>Portfolio</title>
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -12,30 +12,23 @@
 </head>
 
 <body>
-
-  <!--Start of the Nav Bar-->
-  <nav class="navbar navbar-expand-lg navbar-light bg-info">
-    <!--This is for the brand icon of the s2000 in the nav bar-->
+  <!--Start of the Nav-->
+  <nav class="navbar navbar-expand-lg navbar-light bg-info static-top">
     <a class="navbar-brand" href="./index.html">
-      <img src="./images/s2klogo2.png" width="80" height="50" alt="s2000 logo"> <span
-        class="text-dark font-weight-bold"> Rafael Vasquez </span>
-    </a>
-
-    <div class="w-100 text-right">
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-    </div>
-    <!--This is to make the text in the nav bar go to the right-->
-
-    <div class="collapse navbar-collapse flex-grow-1 text-right" id="navbarSupportedContent">
-      <ul class="nav navbar-nav navbar-auto flex-nowrap">
+      <img src="./images/s2klogo2.png" width="80" height="50" alt="s2000 logo"></a>
+    <!-- Icon for the navbar-->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+      aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <!--Right side of the Navbar with the menu-->
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav navbar-auto ml-auto">
+        <!--Index option of the navbar-->
         <li class="nav-item">
-          <!--Home of the navbar-->
           <a class="nav-link" href="./index.html">Home</a>
         </li>
-        <!--Start of the dropdown in the navbar-->
+        <!--Portfolio dropdown option of the navbar-->
         <li class="nav-item dropdown active">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
             aria-haspopup="true" aria-expanded="false">
@@ -43,14 +36,14 @@
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
             <a class="dropdown-item" href="./portfolio.html">All</a>
-            <a class="dropdown-item" href="https://v1zconde.github.io/FirstHW-Horiseon/">Homework 1</a>
+            <a class="dropdown-item" href="https://v1zconde.github.io/FirstHW-Horiseon/" target="_blank">Homework 1</a>
             <div class="dropdown-divider"></div>
             <p style="background-color:lightgrey; text-align: center; font-weight: bolder;">Games</p>
             <a class="dropdown-item" href="https://scratch.mit.edu/projects/456852566">Cat & Mouse</a>
           </div>
         </li>
+        <!--Contact option of the navbar-->
         <li class="nav-item">
-          <!--Contact of the nav bar-->
           <a class="nav-link" href="./contact.html">Contact</a>
         </li>
       </ul>
@@ -62,7 +55,7 @@
   <div class="container">
     <!--first row with the title-->
     <div class="row-12 text-center mb-3">
-      <h3>Previous Projects</h3>
+      <h3 class="display-4"><u>Previous Projects</u></h3>
     </div>
     <!--Row with the card deck inside for the projects-->
     <div class="row mt-3 justify-content-center">
@@ -90,7 +83,8 @@
         <!--second card-->
         <div class="card bg-info mb-3" style="width: 12rem;">
           <!--image of the second card-->
-          <img class="card-img-top" src="./images/Coming-Soon.jpg" width="100px" height="190px" alt="coming soon picture">
+          <img class="card-img-top" src="./images/Coming-Soon.jpg" width="100px" height="190px"
+            alt="coming soon picture">
           <!--body of the second card-->
           <div class="card-body">
             <!--title of the second card-->
@@ -107,7 +101,8 @@
         <!--third card-->
         <div class="card bg-info mb-3" style="width: 12rem;">
           <!--image of the second card-->
-          <img class="card-img-top" src="./images/Coming-Soon.jpg" width="100px" height="190px" alt="coming soon picture">
+          <img class="card-img-top" src="./images/Coming-Soon.jpg" width="100px" height="190px"
+            alt="coming soon picture">
           <!--body of the third card-->
           <div class="card-body">
             <!--title of the third card-->
@@ -125,7 +120,7 @@
     </div>
     <!--Third row for Games title-->
     <div class="row-12 text-center mb-3">
-      <h3>Games</h3>
+      <h3 class="display-4"><u>Games</u></h3>
     </div>
     <!--4th row to have all the Game cards-->
     <div class="row mt-3 justify-content-center">
@@ -156,31 +151,35 @@
           <!--image of the second game card-->
           <img class="card-img-top" src="./images/Coming-Soon.jpg" width="100px" height="190px"
             alt="coming soon picture">
-            <!--body of the second game card-->
+          <!--body of the second game card-->
           <div class=" card-body">
             <!--title of the second game card-->
             <h4 class="card-title">Coming Soon</h4>
             <!--body text of the second game card-->
-            <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque dignissimos at necessitatibus autem sit eveniet nisi libero odit praesentium. Totam nobis repudiandae veniam deleniti labore facilis debitis itaque pariatur consequatur!</p>
+            <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque dignissimos at
+              necessitatibus autem sit eveniet nisi libero odit praesentium. Totam nobis repudiandae veniam deleniti
+              labore facilis debitis itaque pariatur consequatur!</p>
           </div>
           <!--footer of the second game card-->
           <div class="card-footer text-center">
             <a href="#" target="_blank" class="btn btn-light disabled">View Website</a>
           </div>
         </div>
-         <!--Third card of the Game content-->
+        <!--Third card of the Game content-->
         <div class="card bg-info mb-3" style="width: 12rem;">
-           <!--image of the third game card-->
+          <!--image of the third game card-->
           <img class="card-img-top" src="./images/Coming-Soon.jpg" width="100px" height="190px"
             alt="coming soon picture">
-            <!--body of the third game card-->
+          <!--body of the third game card-->
           <div class=" card-body">
-             <!--title of the third game card-->
+            <!--title of the third game card-->
             <h4 class="card-title">Coming Soon</h4>
-             <!--body text of the third game card-->
-            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam eius, quam explicabo eos vitae ipsa facilis, esse id doloribus nisi adipisci mollitia ea molestiae odio, dicta corporis quod est iure.</p>
+            <!--body text of the third game card-->
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam eius, quam
+              explicabo eos vitae ipsa facilis, esse id doloribus nisi adipisci mollitia ea molestiae odio, dicta
+              corporis quod est iure.</p>
           </div>
-           <!--footer of the third game card-->
+          <!--footer of the third game card-->
           <div class="card-footer text-center">
             <a href="#" target="_blank" class="btn btn-light disabled">View
               Website</a>

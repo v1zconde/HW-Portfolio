@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-  <title>Title</title>
+  <title>Contact</title>
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -15,23 +15,23 @@
 <body>
 
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-info">
-      <a class="navbar-brand" href="#">
-        <img src="./images/s2klogo2.png" width="80" height="50" alt="s2000 logo"> <span
-          class="text-dark font-weight-bold"> Rafael Vasquez </span></a>
-
-      <div class="w-100 text-right">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      </div>
-      <div class="collapse navbar-collapse flex-grow-1 text-right" id="navbarSupportedContent">
-
-        <ul class="nav navbar-nav navbar-auto flex-nowrap">
+    <!--Start of the Nav-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-info static-top">
+      <a class="navbar-brand" href="./index.html">
+        <img src="./images/s2klogo2.png" width="80" height="50" alt="s2000 logo"></a>
+      <!-- Icon for the navbar-->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+        aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!--Right side of the Navbar with the menu-->
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav navbar-auto ml-auto">
+          <!--Index option of the navbar-->
           <li class="nav-item">
             <a class="nav-link" href="./index.html">Home</a>
           </li>
+          <!--Portfolio dropdown option of the navbar-->
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
               aria-haspopup="true" aria-expanded="false">
@@ -39,36 +39,39 @@
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
               <a class="dropdown-item" href="./portfolio.html">All</a>
-              <a class="dropdown-item" href="https://v1zconde.github.io/FirstHW-Horiseon/">Homework 1</a>
+              <a class="dropdown-item" href="https://v1zconde.github.io/FirstHW-Horiseon/" target="_blank">Homework 1</a>
               <div class="dropdown-divider"></div>
               <p style="background-color:lightgrey; text-align: center; font-weight: bolder;">Games</p>
               <a class="dropdown-item" href="https://scratch.mit.edu/projects/456852566">Cat & Mouse</a>
             </div>
           </li>
+          <!--Contact option of the navbar-->
           <li class="nav-item active">
             <a class="nav-link" href="./contact.html">Contact</a>
           </li>
         </ul>
       </div>
     </nav>
-
+<!--Container for the form-->
     <div class="container mt-5">
-      <h1 class="display-4">Contact</h1>
-
+      <!--Title of the form-->
+      <u><h1 class="display-4">Contact</h1></u>
+      <!--Start of the form-->
       <form class="form-horizontal">
         <div class="form-group">
           <label for="contactname">Name</label>
-          <input type="text" class="form-control" id="contactname" placeholder="Jane Doe">
+          <input type="text" class="form-control" id="contactname" placeholder="Jane Doe" required>
         </div>
         <div class="form-group">
           <label for="contactemail">Email</label>
-          <input type="email" class="form-control" id="contactemail" placeholder="jane.doe@example.com">
+          <input type="email" class="form-control" id="contactemail" placeholder="jane.doe@example.com" required>
         </div>
         <div class="form-group">
           <label for="contactmsg">Message</label>
-          <textarea class="form-control" rows="3"></textarea>
+          <textarea class="form-control" type="textarea" name="message" id="contactmsg" maxlength="6000"
+            rows="4"></textarea>
         </div>
-        <button type="submit" class="btn btn-info">Send invitation</button>
+        <button type="submit" class="btn btn-info">Send Message</button>
       </form>
     </div>
 
