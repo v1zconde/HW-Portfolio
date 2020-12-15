@@ -51,10 +51,14 @@
 }
 
 footer {
-position:fixed;
+position: fixed;
 bottom: 0;
 width: 100%;
 text-align: center;
 left: 0;
 padding-top: 10px;
+}
+
+body {
+    margin-bottom: 50px;
 }
