@@ -10,7 +10,8 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/custom.css">
+  <link rel="stylesheet" href="./css/custom.css">
+  <script src="https://kit.fontawesome.com/b3dc8ca5bc.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -40,7 +41,8 @@
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
               <a class="dropdown-item" href="./portfolio.html">All</a>
-              <a class="dropdown-item" href="https://v1zconde.github.io/FirstHW-Horiseon/" target="_blank">Homework 1</a>
+              <a class="dropdown-item" href="https://v1zconde.github.io/FirstHW-Horiseon/" target="_blank">Homework
+                1</a>
               <div class="dropdown-divider"></div>
               <p style="background-color:lightgrey; text-align: center; font-weight: bolder;">Games</p>
               <a class="dropdown-item" href="https://scratch.mit.edu/projects/456852566">Cat & Mouse</a>
@@ -53,31 +55,52 @@
         </ul>
       </div>
     </nav>
-<!--Container for the form-->
-    <div class="container-fluid background-contact">
+    <!--Container for the form-->
+    <div class="container-fluid background-contact p-5">
       <div class="container text-white">
-      <!--Title of the form-->
-      <u><h1 class="display-4">Contact</h1></u>
-      <!--Start of the form-->
-      <form class="form-horizontal">
-        <div class="form-group">
-          <label for="contactname">Name</label>
-          <input type="text" class="form-control" id="contactname" placeholder="Jane Doe" required>
-        </div>
-        <div class="form-group">
-          <label for="contactemail">Email</label>
-          <input type="email" class="form-control" id="contactemail" placeholder="jane.doe@example.com" required>
-        </div>
-        <div class="form-group">
-          <label for="contactmsg">Message</label>
-          <textarea class="form-control" type="textarea" name="message" id="contactmsg" maxlength="6000"
-            rows="4"></textarea>
-        </div>
-        <button type="submit" class="btn btn-info">Send Message</button>
-      </form>
+        <!--Title of the form-->
+        <u>
+          <h1 class="display-4">Contact</h1>
+        </u>
+        <!--Start of the form-->
+        <form class="form-horizontal">
+          <div class="form-group">
+            <label for="contactname">Name</label>
+            <input type="text" class="form-control" id="contactname" placeholder="Jane Doe" required>
+          </div>
+          <div class="form-group">
+            <label for="contactemail">Email</label>
+            <input type="email" class="form-control" id="contactemail" placeholder="jane.doe@example.com" required>
+          </div>
+          <div class="form-group">
+            <label for="contactmsg">Message</label>
+            <textarea class="form-control" type="textarea" name="message" id="contactmsg" maxlength="6000"
+              rows="4"></textarea>
+          </div>
+          <button type="submit" class="btn btn-info">Send Message</button>
+        </form>
+      </div>
     </div>
-    </div>
-
+    <footer>
+      <div class="container-fluid bg-info p-2 text-center">
+        <div class="row">
+          <div class="col-md-4">
+            <a href="https://www.facebook.com/vizconde.rafa/" target="_blank"><i id="social-fb" class="fa fa-facebook-square fa-3x social"></i></a>
+            <a href="https://twitter.com/VizRafa" target="_blank"><i id="social-tw" class="fa fa-twitter-square fa-3x social"></i></a>
+            <a href="https://www.instagram.com/iamrafa3/" target="_blank"><i id="social-ig" class="fa fa-instagram fa-3x social"></i></a>
+            <a href="mailto:rvasquez1@gmail.com" target="_blank"><i id="social-em" class="fa fa-envelope-square fa-3x social"></i></a>
+          </div>
+          <div class="col-md-4 mt-auto mb-auto">
+            <div class="centerBlock">
+            <p class="text-lead">Copyright 2020 RV</p>
+          </div>
+          </div>
+          <div class="col-md-4">
+            <a class="" href="./index.html"><img src="./images/s2klogo2.png" width="120" height="50" class= "img-responsive" alt="Logo S2k Rafael Vasquez"></a>
+          </div>
+        </div>
+      </div>
+    </footer>
 
 
     <!-- Optional JavaScript -->
