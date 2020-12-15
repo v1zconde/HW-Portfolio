@@ -6,7 +6,7 @@
 
 .container-fluid.background-contact {
     padding-top: 5rem;
-    background-image: url(../images/background-portfolio.jpg);
+    background-image: url(../images/background-contact.jpg);
     background-size: cover;
     }
 
@@ -50,7 +50,8 @@
     color: #f39c12;
 }
 
-.centerBlock {
-    display: table;
-    margin: auto;
-  }
+footer {
+bottom:0;
+position:fixed;
+height: 60px;
+}
