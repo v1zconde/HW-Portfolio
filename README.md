@@ -4,7 +4,7 @@
 
 ---
 ```
-As a marketing agency they need accessibility standards so that their site is optimized for search engines. I Changed the elements in the website without changing the way it looks. 
+This is a portfolio website about Rafael Vasquez. Im a junior coder, just started the bootcamp. You can find here my past projects and past games i develop in the bootcamp. I hope you enjoy. 
 ```
 ### Built With
 ----
@@ -15,13 +15,12 @@ As a marketing agency they need accessibility standards so that their site is op
   * Font Awesome - icons
 ```    
 
-### List of Errors Found
+### How to navigate
 ---
 ```
-  1. xxx
-  2. xxx
-  3. xxx
-  4. xxx
+  1. Navbar links (Home - Portfolio dropdown - Contact)
+  2. Logo in the navbar
+  3. Logo in the footer
 ```
 
 ### Submission
@@ -32,8 +31,54 @@ Deployed URL:
 
 Github Repo URL: [https://github.com/v1zconde/Portfolio](https://github.com/v1zconde/Portfolio)
 
-### Website
+## Website
 ---
-![Index Html](./images/)
-![Portfolio Html](./images/)
-![Contact Html](./images/)
+### Home Page
+```
+Here you can see the about page.
+  * Navbar (Home Active)
+    - Logo
+    - Dropdown to projets and games
+    - Links to other pages
+  * About me
+    - d-flex with flex-column to make the colums on top of each other
+  * Footer
+    - Logo
+    - Links to social media
+    - Copyright
+    - Fixed Footer
+```
+![Index Html](./images/full-page-index.png)
+### Portfolio Page
+```
+Here you can see the about page.
+  * Navbar (Portfolio active)
+    - Logo
+    - Dropdown to projets and games
+    - Links to other pages
+  * Previous Projets
+    - Here you can see the projects im done so far, they are inside a card deck and each project as card.
+  * Games
+    - Here you can see the games im done so far.
+  * Footer
+    - Logo
+    - Links to social media
+    - Copyright
+    - Fixed Footer
+```
+![Portfolio Html](./images/full-page-portfolio.png)
+### Contact Page
+Here you can see the about page.
+  * Navbar (contact active)
+    - Logo
+    - Dropdown to projets and games
+    - Links to other pages
+  * Contact
+    - This is done with a form. Name and Email are required fields.
+  * Footer
+    - Logo
+    - Links to social media
+    - Copyright
+    - Fixed Footer
+```
+![Contact Html](./images/full-page-contact.png)
