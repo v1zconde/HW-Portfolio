@@ -68,6 +68,7 @@ Here you can see the about page.
 ```
 ![Portfolio Html](./images/full-page-portfolio.png)
 ### Contact Page
+```
 Here you can see the about page.
   * Navbar (contact active)
     - Logo
