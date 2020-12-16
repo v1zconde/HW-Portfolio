@@ -4,7 +4,8 @@
 
 ---
 ```
-This is a portfolio website about Rafael Vasquez. Im a junior coder, just started the bootcamp. You can find here my past projects and past games i develop in the bootcamp. I hope you enjoy. 
+This is a portfolio website about Rafael Vasquez. Im a junior coder, just started the bootcamp. 
+You can find here my past projects and past games i develop in the bootcamp. I hope you enjoy. 
 ```
 ### Built With
 ----
