@@ -57,8 +57,17 @@ width: 100%;
 text-align: center;
 left: 0;
 padding-top: 10px;
+font-size: small;
 }
 
 body {
     margin-bottom: 50px;
 }
+
+.foot {
+    display: block;
+  }
+
+  footer span{
+      font-weight: bolder;
+  }
