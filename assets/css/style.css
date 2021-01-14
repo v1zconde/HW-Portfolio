@@ -40,7 +40,7 @@
 #social-fb:hover {
     color: #3B5998;
 }
-#social-tw:hover {
+.social-tw:hover {
     color: #4099FF;
 }
 #social-ig:hover {
@@ -56,7 +56,6 @@ bottom: 0;
 width: 100%;
 text-align: center;
 left: 0;
-padding-top: 10px;
 font-size: small;
 }
 
