@@ -32,6 +32,10 @@ Deployed URL:
 
 Github Repo URL: [https://github.com/v1zconde/Portfolio](https://github.com/v1zconde/Portfolio)
 
+LinkIn: [https://www.linkedin.com/in/iamrafa/](https://www.linkedin.com/in/iamrafa/)
+
+Resume: [Download](./assets/img/resume.pdf)
+
 ## Website
 ---
 ### Home Page
@@ -39,7 +43,6 @@ Github Repo URL: [https://github.com/v1zconde/Portfolio](https://github.com/v1zc
 Here you can see the about page.
   * Navbar (Home Active)
     - Logo
-    - Dropdown to projets and games
     - Links to other pages
   * About me
     - d-flex with flex-column to make the colums on top of each other
@@ -49,31 +52,27 @@ Here you can see the about page.
     - Copyright
     - Fixed Footer
 ```
-![Index Html](./images/full-page-index.png)
+![Index Html](./assets/img/full-page-index.png)
 ### Portfolio Page
 ```
 Here you can see the about page.
   * Navbar (Portfolio active)
     - Logo
-    - Dropdown to projets and games
     - Links to other pages
-  * Previous Projets
+  * Previous Projets & Games
     - Here you can see the projects im done so far, they are inside a card deck and each project as card.
-  * Games
-    - Here you can see the games im done so far.
   * Footer
     - Logo
     - Links to social media
     - Copyright
     - Fixed Footer
 ```
-![Portfolio Html](./images/full-page-portfolio.png)
+![Portfolio Html](./assets/img/full-page-portfolio.png)
 ### Contact Page
 ```
 Here you can see the about page.
   * Navbar (contact active)
     - Logo
-    - Dropdown to projets and games
     - Links to other pages
   * Contact
     - This is done with a form. Name and Email are required fields.
@@ -83,4 +82,4 @@ Here you can see the about page.
     - Copyright
     - Fixed Footer
 ```
-![Contact Html](./images/full-page-contact.png)
+![Contact Html](./assets/img/full-page-contact.png)
