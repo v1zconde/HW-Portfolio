@@ -1,17 +1,17 @@
 .background-index{
-    padding-top: 5rem;
+
     background-image: url(../img/background-index1.png);
     background-size: cover;
 }
 
 .background-contact {
-    padding-top: 5rem;
+    /* padding-top: 5rem; */
     background-image: url(../img/background-contact.jpg);
     background-size: cover;
     }
 
 .background-portfolio{
-    padding-top: 5rem;
+  
     background-color: rgb(235, 253, 255);
     background-size: cover;
 }
